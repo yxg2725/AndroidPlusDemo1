@@ -11,4 +11,10 @@ public class LoginActivity extends BaseActivity {
     public int getLayoutId() {
         return R.layout.activity_login;
     }
+
+    @Override
+    public void init() {
+        setStatusBarTransparent();
+
+    }
 }
